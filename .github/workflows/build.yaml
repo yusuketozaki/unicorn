@@ -32,5 +32,5 @@ jobs:
         uses: coverallsapp/github-action@master
         if: matrix.os == 'ubuntu-latest’
         with:
-        github-token: ${{ secrets.github_token }}
-        path-to-lcov: coverage.lcov
+          github-token: ${{ secrets.github_token }}
+          path-to-lcov: coverage.lcov
