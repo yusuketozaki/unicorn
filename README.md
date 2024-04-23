@@ -6,7 +6,7 @@ UNIversal COmpression for Reliable Normalization
 
 ## Description
 UNICORN is a tool for handling archive files with just one command. You can handle not only zip files but also tar.gz files and tar.xz files.
-This eliminates the need to memorize commands for handling archive files.
+This eliminates the need to memorize commands for handling archive files
 
 
 ## Installation
