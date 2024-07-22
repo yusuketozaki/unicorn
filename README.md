@@ -1,7 +1,10 @@
 # UNICORN
+[![Rust Report Card](https://rust-reportcard.xuri.me/badge/github.com/yusuketozaki/unicorn)](https://rust-reportcard.xuri.me/report/github.com/yusuketozaki/unicorn)
+[![Coverage Status](https://coveralls.io/repos/github/yusuketozaki/unicorn/badge.svg?branch=main)](https://coveralls.io/github/yusuketozaki/unicorn?branch=main)
+
 UNIversal COmpression for Reliable Normalization
 
-![UNICORN](./docs/images/icon.webp)
+![UNICORN](./docs/icon.webp)
 
 
 ## Description

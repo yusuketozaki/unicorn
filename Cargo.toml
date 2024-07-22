@@ -1,8 +1,20 @@
 [package]
 name = "unicorn"
 version = "0.1.0"
+description = "A tool for archiving files and directories and extracting several archive formats."
+repository = "https://github.com/yusuketozaki/unicorn"
 edition = "2021"
+readme = "README.md"
+authors = [
+    "Yusuke TOZAKI"
+]
+license-file = "LICENSE"
+categories = ["command-line-utilities", "compression"] # see https://crates.io/category_slugs
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
+clap = { version = "4.5.4", features = ["derive"] }
+
+[build-dependencies]
+clap = { version = "4.5.4", features = ["derive"] }
+clap_complete = "4.5.2"
